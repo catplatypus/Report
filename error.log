@@ -1,0 +1,23 @@
+[2026-04-28T17:13:06.276998900+00:00] startup: base_url=https://chatgpt.com/backend-api path_style=wham
+[2026-04-28T17:13:06.287999+00:00] auth: mode=ChatGPT account_id=6337b07d-8401-4ed9-ac4c-faf39df9516b
+[2026-04-28T17:13:06.288493100+00:00] auth: set ChatGPT-Account-Id header: 6337b07d-8401-4ed9-ac4c-faf39df9516b
+[2026-04-28T17:13:06.290610900+00:00] startup: wham_force_internal=false ua=codex_cli_rs/0.125.0 (Windows 10.0.26200; x86_64) unknown (codex_cloud_tasks_tui)
+[2026-04-28T17:13:06.817613200+00:00] http.list_tasks: env=<all> limit=20 cursor_in=<none> cursor_out=<none> items=1
+[2026-04-28T17:13:06.818149500+00:00] refresh.apply: env=<all> count=1
+[2026-04-28T17:13:07.380338+00:00] env: git origins: ["https://github.com/catplatypus/Report.git"]
+[2026-04-28T17:13:07.380851+00:00] env: parsed HTTP GitHub origin => catplatypus/Report
+[2026-04-28T17:13:07.381678100+00:00] env: parsed HTTP GitHub origin => catplatypus/Report
+[2026-04-28T17:13:07.382212700+00:00] env: GET https://chatgpt.com/backend-api/wham/environments/by-repo/github/catplatypus/Report
+[2026-04-28T17:13:08.296675900+00:00] env: status=200 OK content-type=application/json
+[2026-04-28T17:13:08.327982700+00:00] env: status=200 OK content-type=application/json
+[2026-04-28T17:13:08.328978300+00:00] env: by-repo returned 1 env(s) for catplatypus/Report
+[2026-04-28T17:13:08.329799500+00:00] env: single environment available; selecting it
+[2026-04-28T17:13:08.330732300+00:00] env.select: autodetected id=69f0d7ac4160819197860bbb868f6549 label=Report
+[2026-04-28T17:13:08.712203300+00:00] env: status=200 OK content-type=application/json
+[2026-04-28T17:13:08.763694100+00:00] http.list_tasks: env=69f0d7ac4160819197860bbb868f6549 limit=20 cursor_in=<none> cursor_out=<none> items=1
+[2026-04-28T17:13:08.764246400+00:00] refresh.apply: env=69f0d7ac4160819197860bbb868f6549 count=1
+[2026-04-28T17:13:09.186155400+00:00] env: parsed HTTP GitHub origin => catplatypus/Report
+[2026-04-28T17:13:10.068054800+00:00] env: status=200 OK content-type=application/json
+[2026-04-28T17:13:10.465091300+00:00] env: status=200 OK content-type=application/json
+[2026-04-28T17:13:35.188732600+00:00] http.list_tasks: env=69f0d7ac4160819197860bbb868f6549 limit=20 cursor_in=<none> cursor_out=<none> items=1
+[2026-04-28T17:13:35.189295200+00:00] refresh.apply: env=69f0d7ac4160819197860bbb868f6549 count=1
